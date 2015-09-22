@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660BB4531BB12C410017673C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB4521BB12C410017673C /* main.m */; };
+		660BB4561BB12C410017673C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB4551BB12C410017673C /* AppDelegate.m */; };
+		660BB4591BB12C410017673C /* AcromineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB4581BB12C410017673C /* AcromineViewController.m */; };
+		660BB45C1BB12C410017673C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 660BB45A1BB12C410017673C /* Main.storyboard */; };
+		660BB45E1BB12C410017673C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660BB45D1BB12C410017673C /* Images.xcassets */; };
+		660BB4611BB12C410017673C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 660BB45F1BB12C410017673C /* LaunchScreen.xib */; };
+		660BB46D1BB12C410017673C /* AcromineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB46C1BB12C410017673C /* AcromineTests.m */; };
+		660BB47F1BB12FC50017673C /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB47E1BB12FC50017673C /* NetworkManager.m */; };
+		660BB4821BB136BD0017673C /* LongFormObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 660BB4811BB136BD0017673C /* LongFormObject.m */; };
+		C4ED9A705741599BF5583767 /* libPods-Acromine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B629769F4809BEAB00B13B5D /* libPods-Acromine.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		660BB4671BB12C410017673C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660BB4451BB12C400017673C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 660BB44C1BB12C410017673C;
+			remoteInfo = Acromine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		660BB44D1BB12C410017673C /* Acromine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acromine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		660BB4511BB12C410017673C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660BB4521BB12C410017673C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		660BB4541BB12C410017673C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		660BB4551BB12C410017673C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		660BB4571BB12C410017673C /* AcromineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcromineViewController.h; sourceTree = "<group>"; };
+		660BB4581BB12C410017673C /* AcromineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcromineViewController.m; sourceTree = "<group>"; };
+		660BB45B1BB12C410017673C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		660BB45D1BB12C410017673C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		660BB4601BB12C410017673C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		660BB4661BB12C410017673C /* AcromineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcromineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		660BB46B1BB12C410017673C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		660BB46C1BB12C410017673C /* AcromineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcromineTests.m; sourceTree = "<group>"; };
+		660BB47D1BB12FC50017673C /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		660BB47E1BB12FC50017673C /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		660BB4801BB136BD0017673C /* LongFormObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongFormObject.h; sourceTree = "<group>"; };
+		660BB4811BB136BD0017673C /* LongFormObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongFormObject.m; sourceTree = "<group>"; };
+		73487B5FDA058FE27EC396C3 /* Pods-Acromine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Acromine/Pods-Acromine.release.xcconfig"; sourceTree = "<group>"; };
+		A1628058E9B6EF324AE753CC /* Pods-Acromine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Acromine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Acromine/Pods-Acromine.debug.xcconfig"; sourceTree = "<group>"; };
+		B629769F4809BEAB00B13B5D /* libPods-Acromine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Acromine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		660BB44A1BB12C410017673C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4ED9A705741599BF5583767 /* libPods-Acromine.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660BB4631BB12C410017673C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272A274AD696CA2ADA8FB380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B629769F4809BEAB00B13B5D /* libPods-Acromine.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		660BB4441BB12C400017673C = {
+			isa = PBXGroup;
+			children = (
+				660BB44F1BB12C410017673C /* Acromine */,
+				660BB4691BB12C410017673C /* AcromineTests */,
+				660BB44E1BB12C410017673C /* Products */,
+				6FF10ADFD91B61060EBC2965 /* Pods */,
+				272A274AD696CA2ADA8FB380 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		660BB44E1BB12C410017673C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				660BB44D1BB12C410017673C /* Acromine.app */,
+				660BB4661BB12C410017673C /* AcromineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		660BB44F1BB12C410017673C /* Acromine */ = {
+			isa = PBXGroup;
+			children = (
+				660BB47C1BB12FAD0017673C /* Models */,
+				660BB4761BB12D660017673C /* AppDelegate */,
+				660BB4781BB12D770017673C /* Resources */,
+				660BB4501BB12C410017673C /* Supporting Files */,
+				660BB4771BB12D6F0017673C /* View Controller */,
+			);
+			path = Acromine;
+			sourceTree = "<group>";
+		};
+		660BB4501BB12C410017673C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660BB4511BB12C410017673C /* Info.plist */,
+				660BB4521BB12C410017673C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660BB4691BB12C410017673C /* AcromineTests */ = {
+			isa = PBXGroup;
+			children = (
+				660BB46C1BB12C410017673C /* AcromineTests.m */,
+				660BB46A1BB12C410017673C /* Supporting Files */,
+			);
+			path = AcromineTests;
+			sourceTree = "<group>";
+		};
+		660BB46A1BB12C410017673C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				660BB46B1BB12C410017673C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		660BB4761BB12D660017673C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				660BB4541BB12C410017673C /* AppDelegate.h */,
+				660BB4551BB12C410017673C /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		660BB4771BB12D6F0017673C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				660BB4571BB12C410017673C /* AcromineViewController.h */,
+				660BB4581BB12C410017673C /* AcromineViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		660BB4781BB12D770017673C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				660BB47B1BB12D860017673C /* Storyboard */,
+				660BB47A1BB12D810017673C /* Images */,
+				660BB4791BB12D7D0017673C /* Xibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		660BB4791BB12D7D0017673C /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				660BB45F1BB12C410017673C /* LaunchScreen.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		660BB47A1BB12D810017673C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				660BB45D1BB12C410017673C /* Images.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		660BB47B1BB12D860017673C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				660BB45A1BB12C410017673C /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		660BB47C1BB12FAD0017673C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				660BB47D1BB12FC50017673C /* NetworkManager.h */,
+				660BB47E1BB12FC50017673C /* NetworkManager.m */,
+				660BB4801BB136BD0017673C /* LongFormObject.h */,
+				660BB4811BB136BD0017673C /* LongFormObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6FF10ADFD91B61060EBC2965 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1628058E9B6EF324AE753CC /* Pods-Acromine.debug.xcconfig */,
+				73487B5FDA058FE27EC396C3 /* Pods-Acromine.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		660BB44C1BB12C410017673C /* Acromine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660BB4701BB12C410017673C /* Build configuration list for PBXNativeTarget "Acromine" */;
+			buildPhases = (
+				EE1CA2893D761BE725B54522 /* Check Pods Manifest.lock */,
+				660BB4491BB12C410017673C /* Sources */,
+				660BB44A1BB12C410017673C /* Frameworks */,
+				660BB44B1BB12C410017673C /* Resources */,
+				677078B816BDE169F0A4288F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acromine;
+			productName = Acromine;
+			productReference = 660BB44D1BB12C410017673C /* Acromine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		660BB4651BB12C410017673C /* AcromineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660BB4731BB12C410017673C /* Build configuration list for PBXNativeTarget "AcromineTests" */;
+			buildPhases = (
+				660BB4621BB12C410017673C /* Sources */,
+				660BB4631BB12C410017673C /* Frameworks */,
+				660BB4641BB12C410017673C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660BB4681BB12C410017673C /* PBXTargetDependency */,
+			);
+			name = AcromineTests;
+			productName = AcromineTests;
+			productReference = 660BB4661BB12C410017673C /* AcromineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		660BB4451BB12C400017673C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sandeep Ankam";
+				TargetAttributes = {
+					660BB44C1BB12C410017673C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					660BB4651BB12C410017673C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 660BB44C1BB12C410017673C;
+					};
+				};
+			};
+			buildConfigurationList = 660BB4481BB12C400017673C /* Build configuration list for PBXProject "Acromine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 660BB4441BB12C400017673C;
+			productRefGroup = 660BB44E1BB12C410017673C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				660BB44C1BB12C410017673C /* Acromine */,
+				660BB4651BB12C410017673C /* AcromineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		660BB44B1BB12C410017673C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660BB45C1BB12C410017673C /* Main.storyboard in Resources */,
+				660BB4611BB12C410017673C /* LaunchScreen.xib in Resources */,
+				660BB45E1BB12C410017673C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660BB4641BB12C410017673C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		677078B816BDE169F0A4288F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Acromine/Pods-Acromine-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE1CA2893D761BE725B54522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660BB4491BB12C410017673C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660BB47F1BB12FC50017673C /* NetworkManager.m in Sources */,
+				660BB4591BB12C410017673C /* AcromineViewController.m in Sources */,
+				660BB4561BB12C410017673C /* AppDelegate.m in Sources */,
+				660BB4531BB12C410017673C /* main.m in Sources */,
+				660BB4821BB136BD0017673C /* LongFormObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		660BB4621BB12C410017673C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660BB46D1BB12C410017673C /* AcromineTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		660BB4681BB12C410017673C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 660BB44C1BB12C410017673C /* Acromine */;
+			targetProxy = 660BB4671BB12C410017673C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		660BB45A1BB12C410017673C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660BB45B1BB12C410017673C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		660BB45F1BB12C410017673C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				660BB4601BB12C410017673C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		660BB46E1BB12C410017673C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		660BB46F1BB12C410017673C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660BB4711BB12C410017673C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1628058E9B6EF324AE753CC /* Pods-Acromine.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = venkat.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		660BB4721BB12C410017673C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73487B5FDA058FE27EC396C3 /* Pods-Acromine.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Acromine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = venkat.Acromine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		660BB4741BB12C410017673C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcromineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine.app/Acromine";
+			};
+			name = Debug;
+		};
+		660BB4751BB12C410017673C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AcromineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Acromine.app/Acromine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		660BB4481BB12C400017673C /* Build configuration list for PBXProject "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660BB46E1BB12C410017673C /* Debug */,
+				660BB46F1BB12C410017673C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660BB4701BB12C410017673C /* Build configuration list for PBXNativeTarget "Acromine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660BB4711BB12C410017673C /* Debug */,
+				660BB4721BB12C410017673C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660BB4731BB12C410017673C /* Build configuration list for PBXNativeTarget "AcromineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660BB4741BB12C410017673C /* Debug */,
+				660BB4751BB12C410017673C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 660BB4451BB12C400017673C /* Project object */;
+}
